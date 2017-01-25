@@ -1,0 +1,75 @@
+body {
+	scroll-behavior: none;
+	overflow-x: hidden;
+}
+
+#welcome {
+	width:100%;
+	min-height: 600px;
+}
+#howto {
+	min-height: 700px;
+}
+
+#logo {
+	position:relative;
+	left:42%;
+	top:100px;
+	border-radius: 50%;
+}
+
+#logo-image {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#fearch-name {
+	font-family: monospace;
+    font-size: 300%;
+    font-style: bold;
+    height: 60px;
+    width: 385px;
+    text-align: center;
+    position:relative;
+    top:110px;
+    left:365px;
+    text-shadow: 2px 2px 5px #616161;
+}
+#fearch-short {
+	font-family: font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-family: 18px;
+	width:500px;
+	position:relative;
+	top:200px;
+	left:310px;
+	color: #757575;
+}
+#bold {
+	color:	#424242;
+}
+#header h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 45px;
+	margin-top: 30px;
+	color:#c5cae9;
+	text-shadow: 3px 3px 2px #3f51b5;
+}
+
+#info {
+	font-family: font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 10px 10px 5px #888888;
+} 
+#promo {
+	position:relative;
+	left:30%;
+	top:10px;
+}	
+#footer {
+	font-family: font-family: 'Quicksand', sans-serif;
+	font-size:16px;
+	margin-left: 40%;
+	margin-top: 20px;
+}
