@@ -3,6 +3,11 @@ body {
 	overflow-x: hidden;
 }
 
+
+a:link {
+	text-decoration: none;
+}
+
 #welcome {
 	width:100%;
 	min-height: 600px;
@@ -16,7 +21,7 @@ body {
 }
 
 #getinvolved {
-	min-height: 700px;
+	min-height: 800px;
 }
 
 #logo {
@@ -52,7 +57,7 @@ body {
 	font-family: 18px;
 	width:500px;
 	position:relative;
-	top:200px;
+	top:150px;
 	left:310px;
 	color: #757575;
 }
@@ -88,7 +93,7 @@ body {
 }
 #promo {
 	position:relative;
-	left:32%;
+	left:40%;
 	top:-70px;
 	transform: 0.5s all;
 }	
@@ -152,9 +157,7 @@ body {
 	color:#424242;
 }
 
-a {
-	text-decoration: none;
-}
+
 
 #header-getinvolved h1{
 	font-family: 'Pacifico', cursive;
@@ -173,5 +176,98 @@ a {
 }
 #forkit h2:hover {
 	color:#424242;
+}
+#forkit {
+	margin-top:50px;
+}
+#content {
+	color:#757575;
+	font-size:22px;
+	margin-top:50px;
+	text-align: center;
+	width:600px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding:20px;
+	transition:0.3s;
+
+}
+#content:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#menu {
+	position: fixed;
+	top:10px;
+	left:10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#menu:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	border-radius: 50%
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+.nav {
+	border-radius: 50%;
+	background-color:#e91e63;
+	padding:5px;
+	width:50px;
+	height:50px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    position: relative;
+    left:1280;
+}
+.nav:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+#goto-get{
+	top:-500px;
+}
+#goto-involved {
+	top:-340px;
+}
+#panel {
+	margin-top: -100px;
+}
+#dev {
+	position:relative;
+	top:250px;
+	left:430px;
+	color: #757575;
 }
 
