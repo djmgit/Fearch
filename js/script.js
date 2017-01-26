@@ -47,6 +47,12 @@ $(document).ready(function() {
         scrollTop: $("#getinvolved").offset().top},
         'slow');
 	});
+	$(".goto-welcome").click(function(e) {
+		e.preventDefault();
+		$('html,body').animate({
+        scrollTop: $("#welcome").offset().top},
+        'slow');
+	});
 
 
 });
