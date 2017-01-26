@@ -15,6 +15,10 @@ body {
 	min-height: 700px;
 }
 
+#getinvolved {
+	min-height: 700px;
+}
+
 #logo {
 	position:relative;
 	left:42%;
@@ -60,7 +64,7 @@ body {
 	font-size: 45px;
 	margin-top: 30px;
 	color:#c5cae9;
-	text-shadow: 3px 3px 2px #3f51b5;
+	text-shadow: 3px 3px 2px #424242;
 }
 #header {
 	width:370px;
@@ -107,7 +111,7 @@ body {
 	font-size: 45px;
 	margin-top: 30px;
 	color:#9ccc65;
-	text-shadow: 3px 3px 2px #33691e;
+	text-shadow: 3px 3px 2px #424242;
 	text-align: center;
 }
 .card {
@@ -150,5 +154,24 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+#header-getinvolved h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 45px;
+	margin-top: 30px;
+	color:#ef5350;
+	text-shadow: 3px 3px 2px #424242;
+	text-align: center;
+}
+
+#forkit h2{
+	font-family: 'Dancing Script', cursive;
+	color:#9e9e9e;
+	transition: all 0.5s;
+	text-align: center;
+}
+#forkit h2:hover {
+	color:#424242;
 }
 
