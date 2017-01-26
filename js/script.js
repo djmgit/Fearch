@@ -29,6 +29,12 @@ $(document).ready(function() {
         scrollTop: $("#getinvolved").offset().top},
         'slow');
 	});
+	$(".comment").click(function(e) {
+		e.preventDefault();
+		$('html,body').animate({
+        scrollTop: $("#comment").offset().top},
+        'slow');
+	});
 	$(".goto-howto").click(function(e) {
 		e.preventDefault();
 		$('html,body').animate({
