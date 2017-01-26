@@ -23,6 +23,9 @@ a:link {
 #getinvolved {
 	min-height: 800px;
 }
+#comment {
+	min-height: 700px;
+}
 
 #logo {
 	position:relative;
@@ -258,7 +261,10 @@ a:link {
 #goto-get{
 	top:-500px;
 }
-#goto-involved {
+#goto-comment {
+	top:-340px;
+}
+#goto-involved{
 	top:-340px;
 }
 #goto-welcome {
@@ -273,4 +279,15 @@ a:link {
 	left:430px;
 	color: #757575;
 }
+#header-comment h1{
+	
+	font-size: 45px;
+	margin-top: 30px;
+	
+	
+}
+#header-comment {
+	margin-bottom: 50px;
+}
+
 

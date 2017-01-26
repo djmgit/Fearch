@@ -172,11 +172,44 @@
 					</div>
 
 				</div>
+				<div id="goto-comment" class="nav goto-comment">
+		            <a href="#comment"><img src="images/down.png" class="img-responsive" width="50" height="50" /></a>
+		        </div>
+				
+			</div>
+			<div id="comment">
+				<div class="container">
+				<div id="header-comment">
+					<h1> Share Your Views </h1>
+				</div>
+
+					<div id="disqus_thread"></div>
+						<script>
+
+						/**
+						*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+						*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+						/*
+						var disqus_config = function () {
+						this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+						this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+						};
+						*/
+						(function() { // DON'T EDIT BELOW THIS LINE
+						var d = document, s = d.createElement('script');
+						s.src = '//https-djmgit-github-io-chrome-search-extension.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+						})();
+						</script>
+						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				</div>
 				<div id="goto-welcome" class="nav goto-welcome">
 			            <a href="#welcome"><img src="images/up.png" class="img-responsive" width="50" height="50"/></a>
 			    </div>
 			</div>
 			</div>
 		</div>	
+	<script id="dsq-count-scr" src="//https-djmgit-github-io-chrome-search-extension.disqus.com/count.js" async></script>	
 	</body>
 </html>
